@@ -14,6 +14,7 @@ app = Flask(__name__)
 app.config["SECRET_KEY"] = "change-this-secret-key"
 app.config["REMEMBER_COOKIE_DURATION"] = 0
 
+## "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"
 
 bcrypt = Bcrypt(app)
 
